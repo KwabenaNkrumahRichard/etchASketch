@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: silver;
+    
+}
+.item{
+    border: 0.5px solid;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#141e30,#243b55);
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: gold;
+    margin-bottom: 20px;
+}
+h2{
+    color: silver;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+

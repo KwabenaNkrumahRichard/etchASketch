@@ -2,20 +2,17 @@
 let container = document.querySelector('.container');
 let button = document.querySelector('button');
 
-// CREATE GRID FUNCTION
 function createGrid(size){
     for(i =0; i<(size*size);i++){
         let div = document.createElement('div');
         div.classList.add('item');
         container.append(div);
 
-        // COLOR GENERATOR
         let r = Math.floor(Math.random()*265);
         let g = Math.floor(Math.random()*265);
         let b = Math.floor(Math.random()*265);
         let rgb = `rgb(${r},${g},${b})`;
         
-        // MOUSE HOVER EVENT
         div.addEventListener('mouseover', function(){
             div.style.backgroundColor = rgb ;
         })
